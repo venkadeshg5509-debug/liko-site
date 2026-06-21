@@ -1,0 +1,236 @@
+{
+  "specCategories": [
+    {
+      "num": 1,
+      "title": "Design & Drawings",
+      "icon": "bi-rulers",
+      "desc": "Architectural plans, structural drawings and service layouts included in every package.",
+      "specs": [
+        { "label": "Architectural Floor Plan", "hint": "2D layout for all floors", "values": { "prime": "Standard 2D plan", "essential": "Standard 2D plan", "signature": "2D + 3D elevation", "elite": "2D + 3D + interior layout" } },
+        { "label": "Structural Drawings", "hint": "Column, beam, footing layout", "values": { "prime": "Included", "essential": "Included", "signature": "Included + soil report review", "elite": "Included + soil report review" } },
+        { "label": "Electrical & Plumbing Layout", "hint": "Concealed line drawings", "values": { "prime": "Basic layout", "essential": "Standard layout", "signature": "Detailed layout", "elite": "Detailed + load calculation" } }
+      ]
+    },
+    {
+      "num": 2,
+      "title": "Cement — Concrete",
+      "icon": "bi-bricks",
+      "desc": "Cement brand, concrete grade and mixing standards for all RCC work.",
+      "specs": [
+        { "label": "Cement Brand", "hint": "Used for RCC & plastering", "values": { "prime": "Chettinadu / Zuari", "essential": "Dalmia", "signature": "Ultratech", "elite": "Ultratech / Dalmia" } },
+        { "label": "Concrete Grade — Footing", "hint": "M-grade as per IS 456", "values": { "prime": "M20", "essential": "M20", "signature": "M25", "elite": "M25" } },
+        { "label": "Concrete Grade — Column / Beam / Slab", "hint": "All structural members", "values": { "prime": "M20", "essential": "M20", "signature": "M25", "elite": "M25" } },
+        { "label": "Ready Mix / Site Mix", "hint": "Concrete supply method", "values": { "prime": "Site mix", "essential": "Site mix", "signature": "Site mix / RMC option", "elite": "RMC preferred" } }
+      ]
+    },
+    {
+      "num": 3,
+      "title": "Other Works — Sand & Plastering",
+      "icon": "bi-layers-half",
+      "desc": "Sand quality, internal, external and ceiling plastering work.",
+      "specs": [
+        { "label": "Sand Type", "hint": "For plastering & mortar", "values": { "prime": "M-Sand", "essential": "M-Sand", "signature": "M-Sand (filtered)", "elite": "River Sand (where available)" } },
+        { "label": "Internal Plastering", "hint": "Wall finish inside rooms", "values": { "prime": "12mm 1:4 cement plaster", "essential": "12mm 1:4 cement plaster", "signature": "12mm 1:5 smooth finish", "elite": "12mm 1:5 + gypsum punning ready" } },
+        { "label": "External Plastering", "hint": "Weather-facing walls", "values": { "prime": "15mm 1:4 cement plaster", "essential": "15mm 1:4 cement plaster", "signature": "15mm 1:5 texture ready", "elite": "15mm 1:5 premium finish" } },
+        { "label": "Ceiling Plastering", "hint": "Underside of roof slab", "values": { "prime": "6mm gypsum / cement", "essential": "6mm gypsum / cement", "signature": "Gypsum plaster", "elite": "Gypsum + POP finish ready" } }
+      ]
+    },
+    {
+      "num": 4,
+      "title": "Brick / Block Masonry",
+      "icon": "bi-grid-3x3",
+      "desc": "Wall construction material, mortar and bonding standards.",
+      "specs": [
+        { "label": "External Wall Material", "hint": "Main wall construction", "values": { "prime": "Solid Blocks / AAC", "essential": "Red Bricks (1st class)", "signature": "Wire Cut Bricks", "elite": "Wire Cut Bricks" } },
+        { "label": "Internal Partition Walls", "hint": "Room divider walls", "values": { "prime": "Solid Blocks 4\"", "essential": "Red Bricks 4\"", "signature": "Wire Cut / Blocks", "elite": "Wire Cut Bricks" } },
+        { "label": "Mortar Ratio", "hint": "Cement-sand mix for masonry", "values": { "prime": "1:4 cement mortar", "essential": "1:4 cement mortar", "signature": "1:5 cement mortar", "elite": "1:5 + river sand" } },
+        { "label": "Damp Proof Course (DPC)", "hint": "Water barrier at plinth", "values": { "prime": "Included", "essential": "Included", "signature": "Included + bitumen coat", "elite": "Included + bitumen coat" } }
+      ]
+    },
+    {
+      "num": 5,
+      "title": "RCC & Structural Steel",
+      "icon": "bi-building-gear",
+      "desc": "TMT steel, footing type, centering and structural execution.",
+      "specs": [
+        { "label": "TMT Steel Bars", "hint": "IS 1786 certified", "values": { "prime": "GBR / Arun / Pulkit", "essential": "I-Steel / ARS", "signature": "Tata / JSW", "elite": "Tata / JSW" } },
+        { "label": "Footing Type", "hint": "Foundation system", "values": { "prime": "Isolated footing", "essential": "Isolated footing", "signature": "Isolated / combined", "elite": "Combined / raft (as design)" } },
+        { "label": "Centering & Shuttering", "hint": "Formwork for RCC", "values": { "prime": "Standard plywood", "essential": "Standard plywood", "signature": "Premium plywood", "elite": "Premium + steel props" } },
+        { "label": "Lintels & Sunshades", "hint": "Above doors & windows", "values": { "prime": "Precast / RCC in-situ", "essential": "Precast / RCC in-situ", "signature": "RCC + drip mould", "elite": "RCC + designer sunshade" } }
+      ]
+    },
+    {
+      "num": 6,
+      "title": "Electrical Works",
+      "icon": "bi-lightning-charge",
+      "desc": "Wiring, switches, DB panel and standard electrical points.",
+      "specs": [
+        { "label": "Wires", "hint": "FR / FRLS copper", "values": { "prime": "Polycab / Havells FR", "essential": "Polycab / Havells FR", "signature": "Havells / Anchor FRLS", "elite": "Havells / RR Kabel FRLS" } },
+        { "label": "Switches & Sockets", "hint": "Modular switches", "values": { "prime": "Anchor / Roma", "essential": "Anchor / Roma", "signature": "Legrand / Schneider", "elite": "Legrand / Schneider premium" } },
+        { "label": "Distribution Board (DB)", "hint": "MCB / RCCB protection", "values": { "prime": "Standard MCB DB", "essential": "Standard MCB DB", "signature": "MCB + RCCB DB", "elite": "MCB + RCCB + surge protection" } },
+        { "label": "Standard Points", "hint": "Lights, fans, plugs per room", "values": { "prime": "As per plan (basic)", "essential": "As per plan (standard)", "signature": "Extended points included", "elite": "Extended + AC points ready" } }
+      ]
+    },
+    {
+      "num": 7,
+      "title": "Plumbing & Sanitary",
+      "icon": "bi-droplet",
+      "desc": "CPVC pipes, sanitary ware, kitchen sink and drainage.",
+      "specs": [
+        { "label": "Water Supply Pipes", "hint": "Concealed plumbing", "values": { "prime": "CPVC (Ashirwad / Supreme)", "essential": "CPVC (Ashirwad / Supreme)", "signature": "CPVC (Astral / Ashirwad)", "elite": "CPVC (Astral premium)" } },
+        { "label": "Sanitary Ware per Toilet", "hint": "Budget per bathroom", "values": { "prime": "₹15,000 / toilet", "essential": "₹20,000 / toilet", "signature": "₹30,000 / toilet (Jaguar)", "elite": "₹50,000 / toilet (Jaguar Premium)" } },
+        { "label": "Drainage Pipes", "hint": "SWR / PVC waste lines", "values": { "prime": "PVC SWR standard", "essential": "PVC SWR standard", "signature": "Supreme / Astral SWR", "elite": "Premium SWR + silent pipes" } },
+        { "label": "Kitchen Sink & Tap", "hint": "Single bowl with mixer", "values": { "prime": "Stainless steel basic", "essential": "SS with wall mixer", "signature": "SS with premium mixer", "elite": "Granite sink + premium mixer" } }
+      ]
+    },
+    {
+      "num": 8,
+      "title": "Doors & Windows",
+      "icon": "bi-door-open",
+      "desc": "Main door, internal doors, windows and safety grills.",
+      "specs": [
+        { "label": "Main Door", "hint": "Front entrance door", "values": { "prime": "Readymade flush door", "essential": "First class teak frame + flush", "signature": "Teak wood panel door", "elite": "Premium teak + designer panel" } },
+        { "label": "Internal Doors", "hint": "Bedroom, kitchen, toilet", "values": { "prime": "Flush door with laminate", "essential": "Flush door with laminate", "signature": "Membrane / laminate premium", "elite": "Membrane / veneer finish" } },
+        { "label": "Windows", "hint": "Frame + glass + mesh", "values": { "prime": "UPVC 2-track sliding", "essential": "UPVC 3-track sliding", "signature": "UPVC 3-track + toughened glass", "elite": "UPVC premium + toughened glass" } },
+        { "label": "Grill / Safety", "hint": "Window safety grills", "values": { "prime": "MS grill (standard)", "essential": "MS grill (standard)", "signature": "MS powder-coated grill", "elite": "SS / designer MS grill" } }
+      ]
+    },
+    {
+      "num": 9,
+      "title": "Parapet Wall",
+      "icon": "bi-border-all",
+      "desc": "Terrace boundary wall height, finish and coping details.",
+      "specs": [
+        { "label": "Parapet Height", "hint": "Terrace boundary wall", "values": { "prime": "2.5 ft brick parapet", "essential": "2.5 ft brick parapet", "signature": "3 ft brick parapet", "elite": "3 ft + designer finish" } },
+        { "label": "Parapet Material", "hint": "Brick / block construction", "values": { "prime": "Brick masonry", "essential": "Brick masonry", "signature": "Wire cut brick", "elite": "Wire cut + coping tile" } },
+        { "label": "Parapet Coping", "hint": "Top finish of parapet wall", "values": { "prime": "Cement finish", "essential": "Cement finish", "signature": "Tile / stone coping", "elite": "Designer coping tile" } }
+      ]
+    },
+    {
+      "num": 10,
+      "title": "Bricks & Blocks",
+      "icon": "bi-box",
+      "desc": "Detailed brick/block specification and quality grade.",
+      "specs": [
+        { "label": "Brick Grade", "hint": "Quality classification", "values": { "prime": "Solid block / AAC", "essential": "1st class red brick", "signature": "Wire cut brick", "elite": "Premium wire cut" } },
+        { "label": "Brick Size & Standard", "hint": "Standard Indian size", "values": { "prime": "Standard 9\" x 4.5\"", "essential": "Standard 9\" x 4.5\"", "signature": "Wire cut standard", "elite": "Wire cut standard" } },
+        { "label": "Block Work (if applicable)", "hint": "AAC / solid block option", "values": { "prime": "AAC / solid block", "essential": "Red brick primary", "signature": "Wire cut primary", "elite": "Wire cut primary" } }
+      ]
+    },
+    {
+      "num": 11,
+      "title": "Basement Height",
+      "icon": "bi-arrow-down-square",
+      "desc": "Plinth height above ground level — protects from water and gives floor clearance.",
+      "specs": [
+        { "label": "Basement / Plinth Height", "hint": "Height from ground to floor level", "values": { "prime": "2 ft", "essential": "3 ft", "signature": "3 ft", "elite": "4 ft" } },
+        { "label": "Plinth Protection", "hint": "Around building perimeter", "values": { "prime": "Basic PCC", "essential": "PCC + plinth band", "signature": "PCC + plinth band", "elite": "PCC + plinth band + tile" } },
+        { "label": "Extra Height (Add-on)", "hint": "Per additional foot above standard", "values": { "prime": "₹150/sq.ft per ft", "essential": "₹150/sq.ft per ft", "signature": "₹150/sq.ft per ft", "elite": "₹150/sq.ft per ft" } }
+      ]
+    },
+    {
+      "num": 12,
+      "title": "Roof Height (Floor to Floor)",
+      "icon": "bi-arrows-expand-vertical",
+      "desc": "Clear internal height from floor to ceiling — F to F measurement.",
+      "specs": [
+        { "label": "Floor to Floor Height", "hint": "Clear height inside each floor", "values": { "prime": "9.5 ft", "essential": "10 ft", "signature": "10 ft", "elite": "11 ft" } },
+        { "label": "Ceiling Clear Height", "hint": "After plaster & services", "values": { "prime": "~9 ft clear", "essential": "~9.5 ft clear", "signature": "~9.5 ft clear", "elite": "~10.5 ft clear" } },
+        { "label": "Extra Ceiling Height (Add-on)", "hint": "Per additional foot above standard", "values": { "prime": "₹150/sq.ft per ft", "essential": "₹150/sq.ft per ft", "signature": "₹150/sq.ft per ft", "elite": "₹150/sq.ft per ft" } }
+      ]
+    },
+    {
+      "num": 13,
+      "title": "Painting & Finishing",
+      "icon": "bi-brush",
+      "desc": "Interior, exterior, ceiling and enamel paint with putty and primer.",
+      "specs": [
+        { "label": "Interior Walls", "hint": "Putty + primer + 2 coats emulsion", "values": { "prime": "Asian Tractor / Apcolite", "essential": "Asian Apcolite", "signature": "Asian Premium / Berger", "elite": "Asian Royale / Berger Silk" } },
+        { "label": "Exterior Walls", "hint": "Weather-proof exterior coat", "values": { "prime": "Asian Ace Exterior", "essential": "Asian Ace Exterior", "signature": "Asian Apex / Berger", "elite": "Asian Apex Ultima / Berger" } },
+        { "label": "Ceiling Paint", "hint": "White emulsion on ceiling", "values": { "prime": "White emulsion 2 coats", "essential": "White emulsion 2 coats", "signature": "Premium white 2 coats", "elite": "Premium white 2 coats" } },
+        { "label": "Enamel — Doors & Grills", "hint": "Synthetic enamel finish", "values": { "prime": "Synthetic enamel", "essential": "Synthetic enamel", "signature": "Premium enamel", "elite": "Premium enamel + anti-rust" } }
+      ]
+    },
+    {
+      "num": 14,
+      "title": "Flooring Tiles",
+      "icon": "bi-grid-1x2",
+      "desc": "Vitrified and ceramic floor tiles for living, bedroom and common areas.",
+      "specs": [
+        { "label": "Living / Dining Flooring", "hint": "Main hall floor tiles", "values": { "prime": "₹45/sq.ft vitrified", "essential": "₹55/sq.ft vitrified", "signature": "₹75/sq.ft vitrified", "elite": "₹95/sq.ft premium vitrified" } },
+        { "label": "Bedroom Flooring", "hint": "All bedroom floors", "values": { "prime": "₹45/sq.ft vitrified", "essential": "₹55/sq.ft vitrified", "signature": "₹75/sq.ft vitrified", "elite": "₹95/sq.ft premium vitrified" } },
+        { "label": "Toilet Flooring", "hint": "Anti-skid bathroom floor", "values": { "prime": "₹40/sq.ft anti-skid", "essential": "₹50/sq.ft anti-skid", "signature": "₹60/sq.ft anti-skid", "elite": "₹75/sq.ft premium anti-skid" } },
+        { "label": "Staircase Treads", "hint": "Step flooring material", "values": { "prime": "Granite ₹80/sq.ft", "essential": "Granite ₹90/sq.ft", "signature": "Granite ₹120/sq.ft", "elite": "Granite / marble ₹150/sq.ft" } }
+      ]
+    },
+    {
+      "num": 15,
+      "title": "Wall Tiles",
+      "icon": "bi-layout-three-columns",
+      "desc": "Kitchen dado and bathroom wall tiles up to standard height.",
+      "specs": [
+        { "label": "Kitchen Wall Tiles (Dado)", "hint": "Up to 2 ft above counter", "values": { "prime": "₹40/sq.ft ceramic", "essential": "₹50/sq.ft ceramic", "signature": "₹65/sq.ft designer", "elite": "₹85/sq.ft designer" } },
+        { "label": "Bathroom Wall Tiles", "hint": "Dado height up to 7 ft", "values": { "prime": "₹40/sq.ft ceramic", "essential": "₹50/sq.ft ceramic", "signature": "₹65/sq.ft designer", "elite": "₹85/sq.ft imported look" } },
+        { "label": "Tile Brand / Quality", "hint": "Manufacturer tier", "values": { "prime": "Standard ceramic", "essential": "Standard vitrified", "signature": "Kajaria / Somany tier", "elite": "Premium branded tiles" } }
+      ]
+    },
+    {
+      "num": 16,
+      "title": "Parking Area",
+      "icon": "bi-car-front",
+      "desc": "Car porch, stilt parking and driveway floor finish.",
+      "specs": [
+        { "label": "Parking Floor Finish", "hint": "Car porch / stilt area", "values": { "prime": "Cement finish + paint", "essential": "Anti-skid tiles ₹40/sq.ft", "signature": "Anti-skid tiles ₹55/sq.ft", "elite": "Designer anti-skid ₹70/sq.ft" } },
+        { "label": "Driveway / Approach", "hint": "Path to main entrance", "values": { "prime": "PCC + cement finish", "essential": "PCC + basic tile", "signature": "PCC + anti-skid tile", "elite": "PCC + designer paver" } },
+        { "label": "Drainage in Parking", "hint": "Water runoff provision", "values": { "prime": "Basic slope drain", "essential": "Floor drain included", "signature": "Floor drain + channel", "elite": "Floor drain + channel" } }
+      ]
+    },
+    {
+      "num": 17,
+      "title": "Balcony & Sit-out",
+      "icon": "bi-sun",
+      "desc": "Open balcony, sit-out and utility area flooring and railing.",
+      "specs": [
+        { "label": "Balcony Flooring", "hint": "Open balcony finish", "values": { "prime": "Anti-skid ceramic ₹35/sq.ft", "essential": "Anti-skid ceramic ₹45/sq.ft", "signature": "Anti-skid vitrified ₹55/sq.ft", "elite": "Premium anti-skid / wooden look" } },
+        { "label": "Sit-out / Utility Area", "hint": "Wash area & open sit-out", "values": { "prime": "Anti-skid ceramic", "essential": "Anti-skid ceramic", "signature": "Anti-skid vitrified", "elite": "Premium finish" } },
+        { "label": "Balcony Railing", "hint": "Safety railing on open edges", "values": { "prime": "MS painted railing", "essential": "MS powder-coated", "signature": "SS railing", "elite": "Glass + SS designer" } }
+      ]
+    },
+    {
+      "num": 18,
+      "title": "Terrace & Waterproofing",
+      "icon": "bi-cloud-rain",
+      "desc": "Terrace finish, bathroom/balcony waterproofing and cooling tiles.",
+      "specs": [
+        { "label": "Terrace / Cooling Tile", "hint": "Weather-proof terrace finish", "values": { "prime": "Mosaic / basic tile", "essential": "Heat-reflective tile", "signature": "Cooling terrace tile", "elite": "Premium cooling tile + waterproof" } },
+        { "label": "Bathroom Waterproofing", "hint": "Before tile laying", "values": { "prime": "Dr. Fixit / equivalent", "essential": "Dr. Fixit / equivalent", "signature": "Fosroc / Dr. Fixit", "elite": "Fosroc premium compound" } },
+        { "label": "Balcony Waterproofing", "hint": "Open balcony protection", "values": { "prime": "Basic chemical coat", "essential": "Dr. Fixit coat", "signature": "Fosroc / Dr. Fixit", "elite": "Fosroc premium" } },
+        { "label": "Overhead Water Tank", "hint": "Terrace storage capacity", "values": { "prime": "500L Sintex", "essential": "750L Sintex", "signature": "1000L Sintex", "elite": "1500L Sintex / RCC option" } }
+      ]
+    },
+    {
+      "num": 19,
+      "title": "Stairs & Handrails",
+      "icon": "bi-signpost-split",
+      "desc": "RCC staircase structure, tread finish and railing material.",
+      "specs": [
+        { "label": "Staircase Structure", "hint": "RCC dog-leg / U-type", "values": { "prime": "RCC with granite treads", "essential": "RCC with granite treads", "signature": "RCC + granite + SS railing", "elite": "RCC + premium granite / marble" } },
+        { "label": "Staircase Handrails", "hint": "Indoor stair railing", "values": { "prime": "MS painted railing", "essential": "MS powder-coated", "signature": "SS railing", "elite": "Glass + SS designer" } },
+        { "label": "Staircase Wall Finish", "hint": "Side wall beside stairs", "values": { "prime": "Plaster + paint", "essential": "Plaster + paint", "signature": "Plaster + premium paint", "elite": "Designer finish / tile dado" } }
+      ]
+    },
+    {
+      "num": 20,
+      "title": "Quality Checks · CCTV · Handover",
+      "icon": "bi-shield-check",
+      "desc": "Site monitoring, quality assurance, pest control and project handover.",
+      "specs": [
+        { "label": "Quality Inspections", "hint": "Stage-wise quality checks", "values": { "prime": "200+ checks", "essential": "250+ checks", "signature": "300+ checks", "elite": "300+ checks + third-party option" } },
+        { "label": "Site Monitoring (CCTV)", "hint": "Remote site viewing", "values": { "prime": "On request", "essential": "Weekly CCTV review", "signature": "24x7 CCTV access", "elite": "24x7 CCTV + site engineer" } },
+        { "label": "Daily Progress Updates", "hint": "WhatsApp photo / video", "values": { "prime": "Photo updates", "essential": "Daily WhatsApp updates", "signature": "Daily photo + video", "elite": "Daily updates + weekly report" } },
+        { "label": "Pest Control — Basement", "hint": "Pre-construction anti-termite", "values": { "prime": "Included", "essential": "Included", "signature": "Included + 1 yr warranty", "elite": "Included + 2 yr warranty" } },
+        { "label": "Handover & Warranty", "hint": "Final completion support", "values": { "prime": "6 month service support", "essential": "6 month service support", "signature": "1 year structural support", "elite": "1 year + priority support" } }
+      ]
+    }
+  ]
+}

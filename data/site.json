@@ -1,0 +1,216 @@
+{
+  "company": "LIKO Construction and Interiors",
+  "tagline": "Quality is never an accident; it is always the result of intelligent effort.",
+  "address": "No.888, DTK Nagar, Keerapalayam, Cuddalore (Dist), Tamilnadu - 607302",
+  "phone": "+91 94888 88264",
+  "phoneRaw": "919488888264",
+  "phone2": "+91 6383496900",
+  "phone2Raw": "916383496900",
+  "whatsapp": "919488888264",
+  "email": "info@likoconstruction.in",
+  "mapsEmbed": "https://www.google.com/maps?q=Cuddalore,Tamilnadu&output=embed",
+  "mapsLink": "https://maps.google.com/?q=Cuddalore,Tamilnadu",
+  "social": {
+    "facebook": "https://facebook.com/",
+    "instagram": "https://instagram.com/",
+    "youtube": "https://youtube.com/",
+    "linkedin": "https://linkedin.com/"
+  },
+  "packages": [
+    {
+      "id": "prime",
+      "name": "Prime Package",
+      "rate": 2099,
+      "color": "#6c757d",
+      "highlights": [
+        "GBR / Arun / Pulkit Steel",
+        "Chettinadu / Zuari Cement",
+        "Solid Blocks / AAC Blocks",
+        "Basement 2 ft · Roof 9.5 ft (F to F)",
+        "UPVC 2-Track Sliding Windows",
+        "Readymade Main Door"
+      ]
+    },
+    {
+      "id": "essential",
+      "name": "Essential Package",
+      "rate": 2299,
+      "color": "#0d6efd",
+      "highlights": [
+        "I-Steel / ARS TMT",
+        "Dalmia Cement",
+        "Red Bricks (1st class)",
+        "Basement 3 ft · Roof 10 ft (F to F)",
+        "UPVC 3-Track Windows",
+        "First Class Teak Main Door"
+      ]
+    },
+    {
+      "id": "signature",
+      "name": "Signature Package",
+      "rate": 2799,
+      "color": "#198754",
+      "highlights": [
+        "Tata / JSW Steel",
+        "Ultratech Cement",
+        "Wire Cut Bricks",
+        "Granite Stairs · SS Handrails",
+        "Jaguar Plumbing (₹30k/toilet)",
+        "1000L Sintex Tank"
+      ]
+    },
+    {
+      "id": "elite",
+      "name": "Elite Package",
+      "rate": 3299,
+      "color": "#c9a227",
+      "highlights": [
+        "Tata / JSW Steel",
+        "Ultratech / Dalmia Cement",
+        "River Sand · Wire Cut Bricks",
+        "Basement 4 ft · Roof 11 ft (F to F)",
+        "Glass Handrails · Cooling Terrace Tile",
+        "Jaguar Premium (₹50k/toilet)"
+      ]
+    }
+  ],
+  "addons": [
+    {
+      "title": "Septic Tank",
+      "desc": "RCC septic tank construction",
+      "rate": "₹25 / litre capacity"
+    },
+    {
+      "title": "Underground Sump",
+      "desc": "RCC sump for water storage",
+      "rate": "₹30 / litre capacity"
+    },
+    {
+      "title": "Overhead RCC Tank",
+      "desc": "Reinforced cement tank on terrace",
+      "rate": "₹40 / litre capacity"
+    },
+    {
+      "title": "Compound Wall",
+      "desc": "Full boundary wall with MS gate",
+      "rate": "₹400 / sq.ft"
+    },
+    {
+      "title": "Extra Height",
+      "desc": "Additional basement or ceiling height per foot",
+      "rate": "₹150 / sq.ft per ft"
+    },
+    {
+      "title": "Interior Works",
+      "desc": "TV unit, modular kitchen, loft & cupboard",
+      "rate": "Custom quote"
+    },
+    {
+      "title": "Lift Provision",
+      "desc": "Structural provision for future lift",
+      "rate": "₹1.5 Lakhs (one-time)"
+    },
+    {
+      "title": "Solar Water Heater",
+      "desc": "Roof-mounted solar with plumbing",
+      "rate": "From ₹35,000"
+    }
+  ],
+  "services": [
+    {
+      "icon": "bi-house-gear",
+      "title": "Architectural Planning",
+      "desc": "Custom architectural plans, 3D elevation, structural & electrical drawings."
+    },
+    {
+      "icon": "bi-bricks",
+      "title": "Civil Construction",
+      "desc": "M25 grade concrete, isolated footing, full structural execution as per IS456:2000."
+    },
+    {
+      "icon": "bi-palette2",
+      "title": "Interior Design",
+      "desc": "Modular kitchen, TV units, cupboards, lofts and complete interior finishing."
+    },
+    {
+      "icon": "bi-droplet",
+      "title": "Waterproofing",
+      "desc": "Bathroom and balcony waterproofing with basement pest control."
+    },
+    {
+      "icon": "bi-lightning-charge",
+      "title": "Electrical & Plumbing",
+      "desc": "Premium switches, FR wires, concealed CPVC plumbing with branded fixtures."
+    },
+    {
+      "icon": "bi-bucket",
+      "title": "Painting & Finishing",
+      "desc": "Putty, primer and 2-coat emulsion painting for interior and exterior walls."
+    },
+    {
+      "icon": "bi-shield-check",
+      "title": "300+ Quality Checks",
+      "desc": "Dedicated site engineer, project manager and 24x7 CCTV site monitoring."
+    },
+    {
+      "icon": "bi-camera-video",
+      "title": "Daily Updates",
+      "desc": "WhatsApp photo & video updates of your site progress every single day."
+    }
+  ],
+  "projects": {
+    "plans": [
+      {
+        "img": "images/plan-cover.jpg",
+        "title": "30x40 North Facing - 2BHK + 1BHK",
+        "desc": "Ground + First floor plan, 1200 sq.ft built-up."
+      },
+      {
+        "img": "images/plan-option1.jpg",
+        "title": "30x40 Plan Option 2",
+        "desc": "Master bedroom 11'10\" x 11'7\", open terrace on first floor."
+      }
+    ],
+    "elevations": [
+      {
+        "img": "images/elevation.jpeg",
+        "title": "Modern G+1 Elevation",
+        "desc": "Contemporary facade with jali panel, balcony planters & rolling shutter."
+      }
+    ],
+    "completed": [
+      {
+        "img": "images/interior-1.jpg",
+        "title": "Living Room - Cuddalore",
+        "desc": "TV unit with wooden paneling and warm pendant lighting."
+      },
+      {
+        "img": "images/kitchen-1.jpg",
+        "title": "Modular Kitchen",
+        "desc": "Marble island, track lighting and full-height tile cladding."
+      },
+      {
+        "img": "images/bedroom-1.jpg",
+        "title": "Master Bedroom",
+        "desc": "Platform bed with full wardrobe wall."
+      }
+    ]
+  },
+  "gallery": {
+    "exterior": ["images/elevation.jpeg", "images/plan-cover.jpg"],
+    "interior": [
+      "images/interior-1.jpg",
+      "images/interior-2.jpg",
+      "images/kitchen-1.jpg",
+      "images/kitchen-2.jpg",
+      "images/bedroom-1.jpg",
+      "images/bedroom-2.jpg",
+      "images/bedroom-3.jpg"
+    ],
+    "ongoing": ["images/plan-option1.jpg"]
+  },
+  "admin": {
+    "username": "admin",
+    "password": "liko@123"
+  }
+}
